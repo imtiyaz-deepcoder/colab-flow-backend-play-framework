@@ -67,10 +67,9 @@ sudo ln -s /usr/local/share/sbt-1.11.3/bin/sbt /usr/local/bin/sbt
 ## Notes
 - Uses H2 in-memory database with test username/password (admin/admin)
 - Routes, filters, and dependencies preconfigured
-- Ready for building real-time features like WebSockets and streaming APIs
+- APIs, Web Sockets and all prod configs available in the git
 
-## Next Steps (In Course)
-Once this base runs, we’ll:
-- Build REST APIs
-- Add WebSocket support with Akka Streams
-- Integrate with a React frontend
+## Next Steps 
+Once this backend runs,:
+- Built React app from UI folder of main branch
+- Update config.js to point to your backend 
