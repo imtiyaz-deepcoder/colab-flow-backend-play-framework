@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/pluralsight/play-colab-tool/project/project/"), "play-colab-tool-build-build")...
-[debug] Done updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/pluralsight/play-colab-tool/project/project/"), "play-colab-tool-build-build")
+[warn] sbt-bloop-2.0.10-sources.jar no longer exists at /Users/imtiyazhirani/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.10/sbt-bloop-2.0.10-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/PC%20Courses/play-course/colab-flow-backend-play-framework/project/project/"), "colab-flow-backend-play-framework-build-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/PC%20Courses/play-course/colab-flow-backend-play-framework/project/project/"), "colab-flow-backend-play-framework-build-build")

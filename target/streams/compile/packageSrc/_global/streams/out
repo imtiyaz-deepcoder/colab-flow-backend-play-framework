@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/play-colab-tool_2.13-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	prod.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/conf/prod.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/persistence.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/conf/META-INF/persistence.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evolutions/default/1.sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/conf/evolutions/default/1.sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	filters/DefaultHttpFilters.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/filters/DefaultHttpFilters.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/Document.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/models/Document.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/DocumentWebSocketController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/controllers/DocumentWebSocketController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/DocumentController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/controllers/DocumentController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ChatController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/controllers/ChatController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/controllers/HomeController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/LogStreamController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/controllers/LogStreamController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utility/KeyGenGlobal.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/utility/KeyGenGlobal.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utility/LogQueue.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/app/utility/LogQueue.java[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,3 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
-[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/pluralsight/play-colab-tool/project/"), "play-colab-tool-build")...[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/pluralsight/play-colab-tool/project/"), "play-colab-tool-build")[0m
+[warn] sbt-plugin-2.8.22.jar no longer exists at /Users/imtiyazhirani/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/sbt-plugin_2.12_1.0/2.8.22/sbt-plugin-2.8.22.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/PC%20Courses/play-course/colab-flow-backend-play-framework/project/"), "colab-flow-backend-play-framework-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/imtiyazhirani/Documents/PC%20Courses/play-course/colab-flow-backend-play-framework/project/"), "colab-flow-backend-play-framework-build")

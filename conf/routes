@@ -1,9 +1,8 @@
 # Routes
 # This file defines all application routes (Higher priority routes first)
-# ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index()
+GET     /              controllers.HomeController.index()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
@@ -11,7 +10,11 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET     /documents     controllers.DocumentController.getAllDocuments
 POST    /documents     controllers.DocumentController.createDocument(request: Request)
 
-GET     /ws/ping                     controllers.WebSocketController.socket
-GET     /ws/documents                controllers.DocumentWebSocketController.documentSocket
+#Chat web socket endpoint
+GET     /ws/chat       controllers.ChatController.chatSocket
 
+#Document web socket endpoint
+GET     /ws/documents  controllers.DocumentWebSocketController.documentSocket
+
+# Streaming API
 GET     /api/stream/logs        controllers.LogStreamController.streamLogs

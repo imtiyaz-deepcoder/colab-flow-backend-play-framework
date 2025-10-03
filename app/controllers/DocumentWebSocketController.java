@@ -43,12 +43,10 @@ public class DocumentWebSocketController extends Controller {
             allClients.add(clientQueue);
             clientQueue.watchCompletion().thenRun(() -> allClients.remove(clientQueue));
 
-            Sink<String, CompletionStage<akka.Done>> sink = Sink.foreach((String rawMsg) -> {
-                System.out.println("Received: " + rawMsg);
-
-                // Simple protocol: we expect the client to send valid JSON with type, content, and username
+            Sink<String, CompletionStage<Done>> sink = Sink.foreach((String rawMsg) -> {
+                //Simple protocol: we expect the client to send valid JSON with type, content, and username
                 try {
-                    // No JSON parser for now, just broadcast as-is
+                    //No JSON parser for now, just broadcast as-is
                     for (SourceQueueWithComplete<String> q : allClients) {
                         q.offer(rawMsg); // Expecting rawMsg to already be a JSON string
                     }
@@ -57,10 +55,7 @@ public class DocumentWebSocketController extends Controller {
                 }
             });
 
-
             Flow<String, String, NotUsed> flow = Flow.fromSinkAndSource(sink, clientSource);
-
-            // Wrap in Right to indicate success
             return CompletableFuture.completedFuture(F.Either.Right(flow));
         });
     }

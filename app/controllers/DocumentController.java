@@ -27,16 +27,6 @@ public class DocumentController extends Controller {
         this.jpaApi = jpaApi;
     }
 
-    public CompletableFuture<Result> getAllDocuments() {
-        LogQueue.logs.add("Getting all documents");
-        return CompletableFuture.supplyAsync(() ->
-                jpaApi.withTransaction(em -> {
-                    List<Document> docs = em.createQuery("FROM Document", Document.class).getResultList();
-                    return ok(Json.toJson(docs));
-                })
-        );
-    }
-
     public CompletableFuture<Result> createDocument(Http.Request request) {
         LogQueue.logs.add("Creating a new document");
         return CompletableFuture.supplyAsync(() -> {
@@ -50,4 +40,15 @@ public class DocumentController extends Controller {
 
         });
     }
-}
+
+    public CompletableFuture<Result> getAllDocuments() {
+        LogQueue.logs.add("Getting all documents");
+        return CompletableFuture.supplyAsync(() ->
+                jpaApi.withTransaction(em -> {
+                    List<Document> docs = em.createQuery("FROM Document", Document.class)
+                            .getResultList();
+                    return ok(Json.toJson(docs));
+                })
+        );
+     }
+    }

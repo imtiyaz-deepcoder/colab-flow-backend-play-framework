@@ -1,0 +1,111 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/play-colab-tool_2.13-1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	filters[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/filters[0m
+[0m[[0m[0mdebug[0m] [0m[0m	filters/DefaultHttpFilters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/filters/DefaultHttpFilters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/persistence.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/META-INF/persistence.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/Document.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/models/Document.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	prod.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/prod.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evolutions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/evolutions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evolutions/default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/evolutions/default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evolutions/default/1.sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/evolutions/default/1.sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseHomeController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ReverseHomeController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseLogStreamController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ReverseLogStreamController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/routes$javascript.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/routes$javascript.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/HomeController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ReverseChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseDocumentWebSocketController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ReverseDocumentWebSocketController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/LogStreamController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/LogStreamController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/DocumentWebSocketController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/DocumentWebSocketController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseAssets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ReverseAssets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseDocumentController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/ReverseDocumentController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseHomeController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript/ReverseHomeController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseLogStreamController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript/ReverseLogStreamController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript/ReverseChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseDocumentWebSocketController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript/ReverseDocumentWebSocketController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseAssets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript/ReverseAssets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseDocumentController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/javascript/ReverseDocumentController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/routes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/routes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/DocumentController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/controllers/DocumentController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/views[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/views/html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/views/html/main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/index.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/views/html/index.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/index$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/views/html/index$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/views/html/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utility[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/utility[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utility/KeyGenGlobal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/utility/KeyGenGlobal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utility/LogQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/utility/LogQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	router[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/router[0m
+[0m[[0m[0mdebug[0m] [0m[0m	router/RoutesPrefix.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/router/RoutesPrefix.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	router/RoutesPrefix$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/router/RoutesPrefix$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	router/Routes$$anonfun$routes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	router/Routes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/target/scala-2.13/classes/router/Routes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-colab-tool/1.0-SNAPSHOT/javascripts/main.js[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/public/javascripts/main.js[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-colab-tool/1.0-SNAPSHOT/images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/public/images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-colab-tool/1.0-SNAPSHOT/javascripts[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/public/javascripts[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-colab-tool/1.0-SNAPSHOT/stylesheets[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/public/stylesheets[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-colab-tool/1.0-SNAPSHOT/images/favicon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/public/images/favicon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-colab-tool/1.0-SNAPSHOT/stylesheets/main.css[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/public/stylesheets/main.css[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

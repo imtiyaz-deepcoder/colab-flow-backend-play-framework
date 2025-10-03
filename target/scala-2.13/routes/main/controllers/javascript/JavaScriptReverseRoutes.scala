@@ -7,10 +7,10 @@ import play.api.routing.JavaScriptReverseRoute
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:6
+// @LINE:5
 package controllers.javascript {
 
-  // @LINE:9
+  // @LINE:8
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -18,7 +18,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:9
+    // @LINE:8
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -30,7 +30,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:15
+  // @LINE:17
   class ReverseDocumentWebSocketController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -38,7 +38,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:15
+    // @LINE:17
     def documentSocket: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.DocumentWebSocketController.documentSocket",
       """
@@ -50,7 +50,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:11
+  // @LINE:10
   class ReverseDocumentController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -58,7 +58,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:10
     def getAllDocuments: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.DocumentController.getAllDocuments",
       """
@@ -68,7 +68,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:12
+    // @LINE:11
     def createDocument: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.DocumentController.createDocument",
       """
@@ -80,7 +80,27 @@ package controllers.javascript {
   
   }
 
-  // @LINE:6
+  // @LINE:14
+  class ReverseChatController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:14
+    def chatSocket: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ChatController.chatSocket",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "ws/chat"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:5
   class ReverseHomeController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -88,7 +108,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:6
+    // @LINE:5
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.index",
       """
@@ -100,7 +120,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:17
+  // @LINE:20
   class ReverseLogStreamController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -108,32 +128,12 @@ package controllers.javascript {
     }
 
   
-    // @LINE:17
+    // @LINE:20
     def streamLogs: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.LogStreamController.streamLogs",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/stream/logs"})
-        }
-      """
-    )
-  
-  }
-
-  // @LINE:14
-  class ReverseWebSocketController(_prefix: => String) {
-
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:14
-    def socket: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.WebSocketController.socket",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "ws/ping"})
         }
       """
     )

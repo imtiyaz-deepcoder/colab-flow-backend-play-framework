@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[play-colab-tool-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[play-colab-tool-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'play-colab-tool-build' to '/Users/imtiyazhirani/Documents/pluralsight/play-colab-tool/project/.bloop/play-colab-tool-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/play-colab-tool-build.json[0m
+[debug] [colab-flow-backend-play-framework-build] Classpath dependencies List()
+[debug] [colab-flow-backend-play-framework-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'colab-flow-backend-play-framework-build' to '/Users/imtiyazhirani/Documents/PC Courses/play-course/colab-flow-backend-play-framework/project/.bloop/colab-flow-backend-play-framework-build.json'
+[success] Generated .bloop/colab-flow-backend-play-framework-build.json

@@ -13,41 +13,41 @@ import _root_.play.libs.F
 
 class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
-  // @LINE:6
+  // @LINE:5
   HomeController_5: controllers.HomeController,
-  // @LINE:9
+  // @LINE:8
   Assets_3: controllers.Assets,
-  // @LINE:11
+  // @LINE:10
   DocumentController_2: controllers.DocumentController,
   // @LINE:14
-  WebSocketController_0: controllers.WebSocketController,
-  // @LINE:15
-  DocumentWebSocketController_1: controllers.DocumentWebSocketController,
+  ChatController_1: controllers.ChatController,
   // @LINE:17
+  DocumentWebSocketController_0: controllers.DocumentWebSocketController,
+  // @LINE:20
   LogStreamController_4: controllers.LogStreamController,
   val prefix: String
 ) extends GeneratedRouter {
 
    @javax.inject.Inject()
    def this(errorHandler: play.api.http.HttpErrorHandler,
-    // @LINE:6
+    // @LINE:5
     HomeController_5: controllers.HomeController,
-    // @LINE:9
+    // @LINE:8
     Assets_3: controllers.Assets,
-    // @LINE:11
+    // @LINE:10
     DocumentController_2: controllers.DocumentController,
     // @LINE:14
-    WebSocketController_0: controllers.WebSocketController,
-    // @LINE:15
-    DocumentWebSocketController_1: controllers.DocumentWebSocketController,
+    ChatController_1: controllers.ChatController,
     // @LINE:17
+    DocumentWebSocketController_0: controllers.DocumentWebSocketController,
+    // @LINE:20
     LogStreamController_4: controllers.LogStreamController
-  ) = this(errorHandler, HomeController_5, Assets_3, DocumentController_2, WebSocketController_0, DocumentWebSocketController_1, LogStreamController_4, "/")
+  ) = this(errorHandler, HomeController_5, Assets_3, DocumentController_2, ChatController_1, DocumentWebSocketController_0, LogStreamController_4, "/")
 
   def withPrefix(addPrefix: String): Routes = {
     val prefix = play.api.routing.Router.concatPrefix(addPrefix, this.prefix)
     router.RoutesPrefix.setPrefix(prefix)
-    new Routes(errorHandler, HomeController_5, Assets_3, DocumentController_2, WebSocketController_0, DocumentWebSocketController_1, LogStreamController_4, prefix)
+    new Routes(errorHandler, HomeController_5, Assets_3, DocumentController_2, ChatController_1, DocumentWebSocketController_0, LogStreamController_4, prefix)
   }
 
   private[this] val defaultPrefix: String = {
@@ -59,7 +59,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """documents""", """controllers.DocumentController.getAllDocuments"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """documents""", """controllers.DocumentController.createDocument(request:Request)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """ws/ping""", """controllers.WebSocketController.socket"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """ws/chat""", """controllers.ChatController.chatSocket"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """ws/documents""", """controllers.DocumentWebSocketController.documentSocket"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/stream/logs""", """controllers.LogStreamController.streamLogs"""),
     Nil
@@ -69,7 +69,7 @@ class Routes(
   }}
 
 
-  // @LINE:6
+  // @LINE:5
   private[this] lazy val controllers_HomeController_index0_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix)))
   )
@@ -87,7 +87,7 @@ class Routes(
     )
   )
 
-  // @LINE:9
+  // @LINE:8
   private[this] lazy val controllers_Assets_versioned1_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
@@ -105,7 +105,7 @@ class Routes(
     )
   )
 
-  // @LINE:11
+  // @LINE:10
   private[this] lazy val controllers_DocumentController_getAllDocuments2_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("documents")))
   )
@@ -123,7 +123,7 @@ class Routes(
     )
   )
 
-  // @LINE:12
+  // @LINE:11
   private[this] lazy val controllers_DocumentController_createDocument3_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("documents")))
   )
@@ -144,29 +144,29 @@ class Routes(
   )
 
   // @LINE:14
-  private[this] lazy val controllers_WebSocketController_socket4_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("ws/ping")))
+  private[this] lazy val controllers_ChatController_chatSocket4_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("ws/chat")))
   )
-  private[this] lazy val controllers_WebSocketController_socket4_invoker = createInvoker(
-    WebSocketController_0.socket,
+  private[this] lazy val controllers_ChatController_chatSocket4_invoker = createInvoker(
+    ChatController_1.chatSocket,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.WebSocketController",
-      "socket",
+      "controllers.ChatController",
+      "chatSocket",
       Nil,
       "GET",
-      this.prefix + """ws/ping""",
-      """""",
+      this.prefix + """ws/chat""",
+      """Chat web socket endpoint""",
       Seq()
     )
   )
 
-  // @LINE:15
+  // @LINE:17
   private[this] lazy val controllers_DocumentWebSocketController_documentSocket5_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("ws/documents")))
   )
   private[this] lazy val controllers_DocumentWebSocketController_documentSocket5_invoker = createInvoker(
-    DocumentWebSocketController_1.documentSocket,
+    DocumentWebSocketController_0.documentSocket,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.DocumentWebSocketController",
@@ -174,12 +174,12 @@ class Routes(
       Nil,
       "GET",
       this.prefix + """ws/documents""",
-      """""",
+      """Document web socket endpoint""",
       Seq()
     )
   )
 
-  // @LINE:17
+  // @LINE:20
   private[this] lazy val controllers_LogStreamController_streamLogs6_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("api/stream/logs")))
   )
@@ -192,7 +192,7 @@ class Routes(
       Nil,
       "GET",
       this.prefix + """api/stream/logs""",
-      """""",
+      """ Streaming API""",
       Seq()
     )
   )
@@ -200,25 +200,25 @@ class Routes(
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
-    // @LINE:6
+    // @LINE:5
     case controllers_HomeController_index0_route(params@_) =>
       call { 
         controllers_HomeController_index0_invoker.call(HomeController_5.index())
       }
   
-    // @LINE:9
+    // @LINE:8
     case controllers_Assets_versioned1_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned1_invoker.call(Assets_3.versioned(path, file))
       }
   
-    // @LINE:11
+    // @LINE:10
     case controllers_DocumentController_getAllDocuments2_route(params@_) =>
       call { 
         controllers_DocumentController_getAllDocuments2_invoker.call(DocumentController_2.getAllDocuments)
       }
   
-    // @LINE:12
+    // @LINE:11
     case controllers_DocumentController_createDocument3_route(params@_) =>
       call { 
         controllers_DocumentController_createDocument3_invoker.call(
@@ -226,18 +226,18 @@ class Routes(
       }
   
     // @LINE:14
-    case controllers_WebSocketController_socket4_route(params@_) =>
+    case controllers_ChatController_chatSocket4_route(params@_) =>
       call { 
-        controllers_WebSocketController_socket4_invoker.call(WebSocketController_0.socket)
-      }
-  
-    // @LINE:15
-    case controllers_DocumentWebSocketController_documentSocket5_route(params@_) =>
-      call { 
-        controllers_DocumentWebSocketController_documentSocket5_invoker.call(DocumentWebSocketController_1.documentSocket)
+        controllers_ChatController_chatSocket4_invoker.call(ChatController_1.chatSocket)
       }
   
     // @LINE:17
+    case controllers_DocumentWebSocketController_documentSocket5_route(params@_) =>
+      call { 
+        controllers_DocumentWebSocketController_documentSocket5_invoker.call(DocumentWebSocketController_0.documentSocket)
+      }
+  
+    // @LINE:20
     case controllers_LogStreamController_streamLogs6_route(params@_) =>
       call { 
         controllers_LogStreamController_streamLogs6_invoker.call(LogStreamController_4.streamLogs)
